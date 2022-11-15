@@ -1,0 +1,25 @@
+
+.loginContainer{
+    background-color: rgb(255, 115, 15);
+    width: 50%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+    margin-top: 10%;
+}
+
+label{
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+h2{
+    text-align: center;
+}
+
+button{
+    width: 150px;
+    height: 30px;
+}

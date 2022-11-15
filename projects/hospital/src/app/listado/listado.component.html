@@ -1,0 +1,16 @@
+<h1>Países con covid</h1>
+<table class="tablita">
+    <thead>
+        <tr>
+            <th>País</th>
+            <th>Confirmados</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let pais of paises">
+            <td>{{pais.countryRegion}}</td>
+            <td>{{pais.confirmed}}</td>
+        </tr>
+        <button (click)="salir()">Salir</button>
+    </tbody>
+</table>
